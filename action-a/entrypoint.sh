@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-unzip _latest
+unzip $fileName
