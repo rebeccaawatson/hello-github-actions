@@ -1,11 +1,11 @@
-name: A workflow for my Hello World file
+name: An unzip action workflow
 on: push
 jobs:
   build:
-    name: Hello world action
+    name: Unzip action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
-        with:
-          MY_NAME: "Brittany"
+        #with:
+          #MY_NAME: "Brittany"
