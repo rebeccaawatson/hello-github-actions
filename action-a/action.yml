@@ -3,7 +3,7 @@ description: "unzipping test"
 author: "rebecca.watson@jedox.com"
 
 inputs:
-  file:
+  fileName:
     description: "What to unzip"
     required: true
     default: "_latest"
