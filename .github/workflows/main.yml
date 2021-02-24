@@ -17,6 +17,8 @@ jobs:
         unzip _latest.zip
     - name: Commit zip contents
       run: |
+        git config --global user.email "rebecca.watson@jedox.com"
+        git config --global user.name "rebeccaawatson"
         git commit -am "commit message here"
         git push
       #- uses: ./action-a
