@@ -19,7 +19,8 @@ jobs:
       run: |
         git config --global user.email "rebecca.watson@jedox.com"
         git config --global user.name "rebeccaawatson"
-        git commit -am "commit message here"
+        git add *
+        git commit -m "commit message here"
         git push
       #- uses: ./action-a
         #with:
