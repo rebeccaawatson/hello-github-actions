@@ -15,6 +15,10 @@ jobs:
     - name: Unzip file
       run: |
         unzip _latest.zip
+    - name: Commit zip contents
+      run: |
+        git commit -am "commit message here"
+        git push
       #- uses: ./action-a
         #with:
           #MY_NAME: "Brittany"
