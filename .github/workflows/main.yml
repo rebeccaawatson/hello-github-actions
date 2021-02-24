@@ -1,5 +1,8 @@
 name: An unzip action workflow
-on: push
+on: 
+  push:
+    branches:
+      - '*'
 jobs:
   build:
     name: Unzip action
