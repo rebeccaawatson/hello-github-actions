@@ -17,7 +17,7 @@ jobs:
     - name: Unzip file
       run: |
         unzip -o _latest.zip
-    - name: Commit zip contents
+    - name: Commit unzipped contents
       run: |
         git config --local user.email "$(git log --format='%ae' HEAD^!)"
         git config --local user.name "$(git log --format='%an' HEAD^!)"
