@@ -17,11 +17,19 @@ jobs:
         unzip _latest.zip
     - name: Commit zip contents
       run: |
-        git config --global user.email "rebecca.watson@jedox.com"
-        git config --global user.name "rebeccaawatson"
+        
+        git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+        git pull github ${GITHUB_REF} --ff-only
+
         git add *
-        git commit -m "commit message here"
-        git push
+
+        git commit -m "Update native model"
+        git push github HEAD:${GITHUB_REF}
       #- uses: ./action-a
         #with:
           #MY_NAME: "Brittany"
+        #git config --global user.email "rebecca.watson@jedox.com"
+        #git config --global user.name "rebeccaawatson"
+        #git add *
+        #git commit -m "commit message here"
+        #git push
