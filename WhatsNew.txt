@@ -1,0 +1,6 @@
+<ul>
+   <li>Global view (All Data) in Results Preview sample reports </li>
+   <li>UI design updates</li>
+   <li>Additional documentation on Manual Settings report </li>
+   <li>Minor Bug fixes: see full changelog in Report Designer/Files</li>
+</ul>

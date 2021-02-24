@@ -1,17 +1,15 @@
-name: "Hello Actions"
-description: "Greet someone"
-author: "octocat@github.com"
+name: "Unzip archive"
+description: "unzipping test"
+author: "rebecca.watson@jedox.com"
 
 inputs:
-  MY_NAME:
-    description: "Who to greet"
+  fileName:
+    description: "What to unzip"
     required: true
-    default: "World"
+    default: "_latest"
 
 runs:
   using: "docker"
   image: "Dockerfile"
 
-branding:
-  icon: "mic"
-  color: "purple"
+
