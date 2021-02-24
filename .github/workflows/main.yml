@@ -9,6 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./action-a
+      - name: Install Unzip
+          run:|
+            apt-get install unzip
+      - name: Unzip file
+          run:|
+            unzip _latest.zip
+      #- uses: ./action-a
         #with:
           #MY_NAME: "Brittany"
