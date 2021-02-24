@@ -3,6 +3,10 @@ on:
     types: [review_requested]
     branches:
       - '*'
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   build:
     name: Zip action
@@ -14,4 +18,13 @@ jobs:
         sudo apt-get install zip
     - name: zip file
       run: |
-        zip WhatsNew.txt  
+        zip _latest WhatsNew.txt
+    - name: Commit zipped contents
+      run: |
+        git config --local user.email "$(git log --format='%ae' HEAD^!)"
+        git config --local user.name "$(git log --format='%an' HEAD^!)"
+        git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+        git pull github ${GITHUB_REF} --ff-only
+        git add *
+        git commit -m "Update Wizard model"
+        git push github HEAD:${GITHUB_REF}
