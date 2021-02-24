@@ -26,13 +26,5 @@ jobs:
 
         git add *
 
-        git commit -m "Update native model"
+        git commit -m "Update Wizard model"
         git push github HEAD:${GITHUB_REF}
-      #- uses: ./action-a
-        #with:
-          #MY_NAME: "Brittany"
-        #git config --global user.email "rebecca.watson@jedox.com"
-        #git config --global user.name "rebeccaawatson"
-        #git add *
-        #git commit -m "commit message here"
-        #git push
