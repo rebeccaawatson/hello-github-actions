@@ -1,0 +1,17 @@
+on:
+  pull_request:
+    types: [review_requested]
+    branches:
+      - '*'
+jobs:
+  build:
+    name: Zip action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install Zip
+      run: |
+        sudo apt-get install zip
+    - name: zip file
+      run: |
+        zip WhatsNew.txt  
