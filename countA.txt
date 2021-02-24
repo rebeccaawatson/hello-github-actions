@@ -1,0 +1,11 @@
+=COUNTA(PALO.SUBSET("localhost/AISR","AAD_group_new",1,,PALO.HFILTER("All Users",0,false,,,,,3,5,false),,,PALO.AFILTER({"AAD_userEntryDate";"2020-02*"},0,{true,true,true,true,true,true,true,true,true,true,true,true,true,true}),,PALO.SORT(1,4,,0,,0,1,,)))
+
+
+={@YearGraph&"-01",@YearGraph&"-02",@YearGraph&"-03",@YearGraph&"-04",@YearGraph&"-05",@YearGraph&"-06",@YearGraph&"-07",@YearGraph&"-08",@YearGraph&"-09",@YearGraph&"-10",@YearGraph&"-11",@YearGraph&"-"12"}
+=IF(@Year="All Years","*",IF(@Month<>"All Months",CONCATENATE(@Year,"-",@Month,"*"),CONCATENATE(@Year,"*")))
+
+=COUNTA(PALO.SUBSET("localhost/AISR","AAD_group_new",1,,PALO.HFILTER("All 
+
+=IF(@UserType="Customers & Partners",COUNTA(PALO.SUBSET("localhost/AISR","AAD_group_new",1,,PALO.HFILTER("Customers",0,FALSE,,,,,3,5,FALSE),,,PALO.AFILTER({"AAD_userEntryDate";D8},0,{TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE}),,PALO.SORT(1,4,,0,,0,1,,)))+COUNTA(PALO.SUBSET("localhost/AISR","AAD_group_new",1,,PALO.HFILTER("Partners",0,FALSE,,,,,3,5,FALSE),,,PALO.AFILTER({"AAD_userEntryDate";D8},0,{TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE}),,PALO.SORT(1,4,,0,,0,1,,))),COUNTA(PALO.SUBSET("localhost/AISR","AAD_group_new",1,,PALO.HFILTER(@UserType,0,FALSE,,,,,3,5,FALSE),,,PALO.AFILTER({"AAD_userEntryDate";D8},0,{TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE}),,PALO.SORT(1,4,,0,,0,1,,))))
+
+JDX_4rt1f1c14l
