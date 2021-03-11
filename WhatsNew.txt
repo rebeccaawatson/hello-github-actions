@@ -4,3 +4,7 @@
    <li>Additional documentation on Manual Settings report </li>
    <li>Minor Bug fixes: see full changelog in Report Designer/Files</li>
 </ul>
+
+
+I am adding a line here in order to make a change to the content
+Adding another line
