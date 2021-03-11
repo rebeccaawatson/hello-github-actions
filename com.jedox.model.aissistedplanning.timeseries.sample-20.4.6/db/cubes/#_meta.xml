@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?><!-- CUBE "#_meta" --><cube><e0><e1336><e0><!-- type / com.jedox.model.aissistedplanning.timeseries.sample / ~ -->file</e0></e1336></e0><e1><e1336><e0><!-- data / com.jedox.model.aissistedplanning.timeseries.sample / ~ -->&lt;?xml version="1.0" encoding="UTF-8"?>&lt;element name="com.jedox.model.aissistedplanning.timeseries.sample" type="file">&#xd;
+  &lt;info>&#xd;
+    &lt;name>Time Series Prediction - Sample Data&lt;/name>&#xd;
+    &lt;desc>Time Series prediciton - Sample Data&lt;/desc>&#xd;
+    &lt;comment/>&#xd;
+    &lt;i18n/>&#xd;
+  &lt;/info>&#xd;
+  &lt;backend location="C:\Program Files (x86)\Jedox\Jedox Suite\storage/pkgs" password="" type="local" username=""/>&#xd;
+  &lt;/element></e0></e1336></e1><e3><e1336><e0><!-- seq_node / com.jedox.model.aissistedplanning.timeseries.sample / ~ -->24</e0></e1336></e3></cube>

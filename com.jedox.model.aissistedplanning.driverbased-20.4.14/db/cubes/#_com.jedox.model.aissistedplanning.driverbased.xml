@@ -1,0 +1,983 @@
+<?xml version='1.0' encoding='utf-8'?><!-- CUBE "#_com.jedox.model.aissistedplanning.driverbased" --><cube><e0><e0><e0><!-- type / n1 / ~ -->folder</e0></e0><e1><e0><!-- type / n2 / ~ -->folder</e0></e1><e2><e0><!-- type / n3 / ~ -->static</e0></e2><e3><e0><!-- type / n4 / ~ -->static</e0></e3><e4><e0><!-- type / n5 / ~ -->static</e0></e4><e5><e0><!-- type / n6 / ~ -->folder</e0></e5><e6><e0><!-- type / n7 / ~ -->static</e0></e6><e7><e0><!-- type / n8 / ~ -->folder</e0></e7><e8><e0><!-- type / n9 / ~ -->workbook</e0></e8><e9><e0><!-- type / n10 / ~ -->workbook</e0></e9><e10><e0><!-- type / n11 / ~ -->workbook</e0></e10><e11><e0><!-- type / n12 / ~ -->workbook</e0></e11><e12><e0><!-- type / n13 / ~ -->workbook</e0></e12><e13><e0><!-- type / n14 / ~ -->workbook</e0></e13><e14><e0><!-- type / n15 / ~ -->workbook</e0></e14><e15><e0><!-- type / n17 / ~ -->workbook</e0></e15><e16><e0><!-- type / n18 / ~ -->workbook</e0></e16><e17><e0><!-- type / n19 / ~ -->folder</e0></e17><e18><e0><!-- type / n20 / ~ -->folder</e0></e18><e19><e0><!-- type / n21 / ~ -->static</e0></e19><e20><e0><!-- type / n22 / ~ -->static</e0></e20><e21><e0><!-- type / n23 / ~ -->static</e0></e21><e22><e0><!-- type / n24 / ~ -->static</e0></e22><e23><e0><!-- type / n25 / ~ -->static</e0></e23><e24><e0><!-- type / n26 / ~ -->static</e0></e24><e25><e0><!-- type / n27 / ~ -->static</e0></e25><e26><e0><!-- type / n28 / ~ -->static</e0></e26><e27><e0><!-- type / n29 / ~ -->static</e0></e27><e28><e0><!-- type / n30 / ~ -->static</e0></e28><e29><e0><!-- type / n31 / ~ -->static</e0></e29><e30><e0><!-- type / n32 / ~ -->frameset</e0></e30><e31><e0><!-- type / n33 / ~ -->frameset</e0></e31><e32><e0><!-- type / n34 / ~ -->frameset</e0></e32><e33><e0><!-- type / n35 / ~ -->frameset</e0></e33><e34><e0><!-- type / n36 / ~ -->frameset</e0></e34><e35><e0><!-- type / n39 / ~ -->static</e0></e35><e36><e0><!-- type / n40 / ~ -->static</e0></e36><e37><e0><!-- type / n41 / ~ -->static</e0></e37><e38><e0><!-- type / n42 / ~ -->static</e0></e38><e39><e0><!-- type / n43 / ~ -->static</e0></e39><e40><e0><!-- type / n44 / ~ -->static</e0></e40><e41><e0><!-- type / n46 / ~ -->static</e0></e41><e42><e0><!-- type / n47 / ~ -->static</e0></e42><e43><e0><!-- type / n49 / ~ -->static</e0></e43><e44><e0><!-- type / n52 / ~ -->static</e0></e44><e45><e0><!-- type / n53 / ~ -->static</e0></e45><e46><e0><!-- type / n55 / ~ -->workbook</e0></e46><e47><e0><!-- type / n56 / ~ -->frameset</e0></e47><e48><e0><!-- type / n57 / ~ -->static</e0></e48><e49><e0><!-- type / n58 / ~ -->static</e0></e49><e50><e0><!-- type / n59 / ~ -->static</e0></e50><e51><e0><!-- type / n60 / ~ -->static</e0></e51><e52><e0><!-- type / n61 / ~ -->static</e0></e52><e53><e0><!-- type / n62 / ~ -->static</e0></e53><e54><e0><!-- type / n63 / ~ -->static</e0></e54><e55><e0><!-- type / n64 / ~ -->static</e0></e55><e56><e0><!-- type / n65 / ~ -->static</e0></e56><e57><e0><!-- type / n66 / ~ -->static</e0></e57><e58><e0><!-- type / n68 / ~ -->frameset</e0></e58><e59><e0><!-- type / n70 / ~ -->workbook</e0></e59><e60><e0><!-- type / n71 / ~ -->frameset</e0></e60><e61><e0><!-- type / n73 / ~ -->workbook</e0></e61><e62><e0><!-- type / n74 / ~ -->static</e0></e62><e63><e0><!-- type / n75 / ~ -->workbook</e0></e63><e64><e0><!-- type / n76 / ~ -->frameset</e0></e64></e0><e1><e0><e0><!-- data / n1 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n1" type="folder">
+  &lt;info>
+    &lt;name>.pkg&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+&lt;/element>
+</e0></e0><e1><e0><!-- data / n2 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n2" type="folder">
+  &lt;info>
+    &lt;name>icons&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+&lt;/element>
+</e0></e1><e2><e0><!-- data / n3 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n3" type="static">
+  &lt;info>
+    &lt;name>16x16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e2><e3><e0><!-- data / n4 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n4" type="static">
+  &lt;info>
+    &lt;name>64x64&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e3><e4><e0><!-- data / n5 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n5" type="static">
+  &lt;info>
+    &lt;name>128x128&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e4><e5><e0><!-- data / n6 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n6" type="folder">
+  &lt;info>
+    &lt;name>legal&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+&lt;/element>
+</e0></e5><e6><e0><!-- data / n7 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n7" type="static">
+  &lt;info>
+    &lt;name>license&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="html"/>
+&lt;/element>
+</e0></e6><e7><e0><!-- data / n8 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n8" type="folder">
+  &lt;info>
+    &lt;name>Reports&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+&lt;/element>
+</e0></e7><e8><e0><!-- data / n9 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n9" type="workbook">
+  &lt;info>
+    &lt;name>baseDelete&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars>
+    &lt;var name="cube" private="false"/>
+    &lt;var name="db" private="false"/>
+    &lt;var name="deletePredictions" private="false"/>
+  &lt;/vars>
+  &lt;referrers/>
+  &lt;resources>
+    &lt;resource group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n12"/>
+  &lt;/resources>
+  &lt;dependents/>
+&lt;/element>
+</e0></e8><e9><e0><!-- data / n10 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n10" type="workbook">
+  &lt;info>
+    &lt;name>baseStart&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars>
+    &lt;var name="cube" private="false"/>
+    &lt;var name="db" private="false"/>
+  &lt;/vars>
+  &lt;referrers/>
+  &lt;resources>
+    &lt;resource group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n12"/>
+  &lt;/resources>
+  &lt;dependents/>
+&lt;/element>
+</e0></e9><e10><e0><!-- data / n11 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n11" type="workbook">
+  &lt;info>
+    &lt;name>DBsetup&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars>
+    &lt;var name="Accuracy" private="false"/>
+    &lt;var name="Duration" private="false"/>
+    &lt;var name="Interpolation" private="false"/>
+    &lt;var name="Interval" private="false"/>
+    &lt;var name="PredictSources" private="false"/>
+    &lt;var name="Schedule" private="false"/>
+    &lt;var name="Shift" private="false"/>
+    &lt;var name="Type" private="false"/>
+    &lt;var name="cube" private="false"/>
+    &lt;var name="dateEnd" private="false"/>
+    &lt;var name="dateStart" private="false"/>
+    &lt;var name="db" private="false"/>
+    &lt;var name="next" private="false"/>
+  &lt;/vars>
+  &lt;referrers/>
+  &lt;resources>
+    &lt;resource group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n12"/>
+  &lt;/resources>
+  &lt;dependents/>
+&lt;/element>
+</e0></e10><e11><e0><!-- data / n12 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n12" type="workbook">
+  &lt;info>
+    &lt;name>DBresource&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars/>
+  &lt;referrers/>
+  &lt;resources/>
+  &lt;dependents>
+    &lt;dependent group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n10"/>
+    &lt;dependent group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n11"/>
+    &lt;dependent group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n13"/&gt;
+    &lt;dependent group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n14"/>
+    &lt;dependent group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n15"/>
+    &lt;dependent group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n17"/>
+    &lt;dependent group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n9"/>
+    &lt;dependent group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n73"/>
+    &lt;dependent group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n75"/>
+    &lt;dependent group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n70"/>
+  &lt;/dependents>
+&lt;/element>
+</e0></e11><e12><e0><!-- data / n13 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n13" type="workbook">
+  &lt;info>
+    &lt;name>DBoverview&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars>
+    &lt;var name="ShowActive" private="false"/>
+  &lt;/vars>
+  &lt;referrers>
+    &lt;referrer group="pkgs" hierarchy="com.jedox.model.aissistedplanning~reports" node="n7"/>
+  &lt;/referrers>
+  &lt;resources>
+    &lt;resource group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n12"/>
+  &lt;/resources>
+  &lt;dependents/>
+&lt;/element>
+</e0></e12><e13><e0><!-- data / n14 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n14" type="workbook">
+  &lt;info>
+    &lt;name>baseListPicker&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars>
+    &lt;var name="Alias" private="false"/>
+    &lt;var name="ListValue" private="false"/>
+    &lt;var name="PickedDim" private="false"/>
+    &lt;var name="UseAttribute" private="false"/>
+    &lt;var name="db" private="false"/>
+  &lt;/vars>
+  &lt;referrers/>
+  &lt;resources>
+    &lt;resource group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n12"/>
+  &lt;/resources>
+  &lt;dependents/>
+&lt;/element>
+</e0></e13><e14><e0><!-- data / n15 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n15" type="workbook">
+  &lt;info>
+    &lt;name>baseDelete2&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars>
+    &lt;var name="cube" private="false"/>
+    &lt;var name="db" private="false"/>
+    &lt;var name="scenario" private="false"/>
+  &lt;/vars>
+  &lt;referrers/>
+  &lt;resources>
+    &lt;resource group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n12"/>
+  &lt;/resources>
+  &lt;dependents/>
+&lt;/element>
+</e0></e14><e15><e0><!-- data / n17 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n17" type="workbook">
+  &lt;info>
+    &lt;name>basePreview&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars>
+    &lt;var name="countrySpecificFormat" private="false"/>
+    &lt;var name="cube" private="false"/>
+    &lt;var name="db" private="false"/>
+    &lt;var name="inputMeasure1" private="false"/>
+    &lt;var name="inputMeasure2" private="false"/>
+    &lt;var name="lblTitles" private="false"/>
+    &lt;var name="scenario" private="false"/>
+    &lt;var name="selectedMeasure" private="false"/>
+    &lt;var name="selectedVersion" private="false"/>
+  &lt;/vars>
+  &lt;referrers/>
+  &lt;resources>
+    &lt;resource group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n12"/>
+  &lt;/resources>
+  &lt;dependents/>
+&lt;/element>
+</e0></e15><e16><e0><!-- data / n18 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n18" type="workbook">
+  &lt;info>
+    &lt;name>blank&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars/>
+  &lt;referrers/>
+  &lt;resources/>
+  &lt;dependents/>
+&lt;/element>
+</e0></e16><e17><e0><!-- data / n19 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n19" type="folder">
+  &lt;info>
+    &lt;name>Files&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+&lt;/element>
+</e0></e17><e18><e0><!-- data / n20 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n20" type="folder">
+  &lt;info>
+    &lt;name>Images&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+&lt;/element>
+</e0></e18><e19><e0><!-- data / n21 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n21" type="static">
+  &lt;info>
+    &lt;name>jx_even-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e19><e20><e0><!-- data / n22 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n22" type="static">
+  &lt;info>
+    &lt;name>jx_cancel-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e20><e21><e0><!-- data / n23 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n23" type="static">
+  &lt;info>
+    &lt;name>jx_list-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e21><e22><e0><!-- data / n24 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n24" type="static">
+  &lt;info>
+    &lt;name>jx_pencil-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e22><e23><e0><!-- data / n25 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n25" type="static">
+  &lt;info>
+    &lt;name>preview&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e23><e24><e0><!-- data / n26 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n26" type="static">
+  &lt;info>
+    &lt;name>start&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e24><e25><e0><!-- data / n27 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n27" type="static">
+  &lt;info>
+    &lt;name>confirm&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e25><e26><e0><!-- data / n28 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n28" type="static">
+  &lt;info>
+    &lt;name>jx_adjustment-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e26><e27><e0><!-- data / n29 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n29" type="static">
+  &lt;info>
+    &lt;name>jx_day-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e27><e28><e0><!-- data / n30 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n30" type="static">
+  &lt;info>
+    &lt;name>jx_time-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e28><e29><e0><!-- data / n31 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n31" type="static">
+  &lt;info>
+    &lt;name>jx_preview-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e29><e30><e0><!-- data / n32 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n32" type="frameset">
+  &lt;info>
+    &lt;name>ListPicker&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;frameset rows="5,*" cols="100%">
+    &lt;frame name="Frame1" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n18" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="no"/>
+      &lt;/params>
+    &lt;/frame>
+    &lt;frame name="Frame2" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n14" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="no"/>
+      &lt;/params>
+    &lt;/frame>
+  &lt;/frameset>
+&lt;/element>
+</e0></e30><e31><e0><!-- data / n33 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n33" type="frameset">
+  &lt;info>
+    &lt;name>DBdelete&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;frameset rows="5,*" cols="100%">
+    &lt;frame name="Frame1" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n18" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="no"/>
+      &lt;/params>
+    &lt;/frame>
+    &lt;frame name="Frame2" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n9" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="yes"/>
+      &lt;/params>
+    &lt;/frame>
+  &lt;/frameset>
+&lt;/element>
+</e0></e31><e32><e0><!-- data / n34 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n34" type="frameset">
+  &lt;info>
+    &lt;name>DBstart&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;frameset rows="5,*" cols="100%">
+    &lt;frame name="Frame1" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n18" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="yes"/>
+      &lt;/params>
+    &lt;/frame>
+    &lt;frame name="Frame2" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n10" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="yes"/>
+      &lt;/params>
+    &lt;/frame>
+  &lt;/frameset>
+&lt;/element>
+</e0></e32><e33><e0><!-- data / n35 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n35" type="frameset">
+  &lt;info>
+    &lt;name>Preview&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;frameset rows="2,*" cols="100%">
+    &lt;frame name="Frame1" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n18" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="no"/>
+      &lt;/params>
+    &lt;/frame>
+    &lt;frame name="Frame2" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n17" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="no"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="no"/>
+      &lt;/params>
+    &lt;/frame>
+  &lt;/frameset>
+&lt;/element>
+</e0></e33><e34><e0><!-- data / n36 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n36" type="frameset">
+  &lt;info>
+    &lt;name>DBdelete2&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;frameset rows="5,*" cols="100%">
+    &lt;frame name="Frame1" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n18" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="no"/>
+      &lt;/params>
+    &lt;/frame>
+    &lt;frame name="Frame2" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n15" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="yes"/>
+      &lt;/params>
+    &lt;/frame>
+  &lt;/frameset>
+&lt;/element>
+</e0></e34><e35><e0><!-- data / n39 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n39" type="static">
+  &lt;info>
+    &lt;name>jx_currency-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e35><e36><e0><!-- data / n40 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n40" type="static">
+  &lt;info>
+    &lt;name>jx_currency-48&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e36><e37><e0><!-- data / n41 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n41" type="static">
+  &lt;info>
+    &lt;name>jx_help-48&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e37><e38><e0><!-- data / n42 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n42" type="static">
+  &lt;info>
+    &lt;name>jx_refresh_grey-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e38><e39><e0><!-- data / n43 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n43" type="static">
+  &lt;info>
+    &lt;name>stop-button-16-red&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e39><e40><e0><!-- data / n44 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n44" type="static">
+  &lt;info>
+    &lt;name>jx_alert-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e40><e41><e0><!-- data / n46 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n46" type="static">
+  &lt;info>
+    &lt;name>jx_alert-48&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e41><e42><e0><!-- data / n47 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n47" type="static">
+  &lt;info>
+    &lt;name>jx_alert-48-red&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e42><e43><e0><!-- data / n49 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n49" type="static">
+  &lt;info>
+    &lt;name>jx_checkbox-checked-48&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e43><e44><e0><!-- data / n52 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n52" type="static">
+  &lt;info>
+    &lt;name>jx_checkbox-WARNING-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e44><e45><e0><!-- data / n53 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n53" type="static">
+  &lt;info>
+    &lt;name>jx_checkbox-WARNING-48&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e45><e46><e0><!-- data / n55 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n55" type="workbook">
+  &lt;info>
+    &lt;name>baseStatus&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars>
+    &lt;var name="cube" private="false"/>
+    &lt;var name="db" private="false"/>
+  &lt;/vars>
+  &lt;referrers/>
+  &lt;resources/>
+  &lt;dependents/>
+&lt;/element>
+</e0></e46><e47><e0><!-- data / n56 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n56" type="frameset">
+  &lt;info>
+    &lt;name>DBstatus&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;frameset rows="5,*" cols="100%">
+    &lt;frame name="Frame1" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n18" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="yes"/>
+      &lt;/params>
+    &lt;/frame>
+    &lt;frame name="Frame2" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n55" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="yes"/>
+      &lt;/params>
+    &lt;/frame>
+  &lt;/frameset>
+&lt;/element>
+</e0></e47><e48><e0><!-- data / n57 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n57" type="static">
+  &lt;info>
+    &lt;name>jx_conform-ok-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e48><e49><e0><!-- data / n58 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n58" type="static">
+  &lt;info>
+    &lt;name>jx_conform-ok-48&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e49><e50><e0><!-- data / n59 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n59" type="static">
+  &lt;info>
+    &lt;name>jx_alert-16-yellow&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e50><e51><e0><!-- data / n60 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n60" type="static">
+  &lt;info>
+    &lt;name>jx_alert-48-yellow&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e51><e52><e0><!-- data / n61 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n61" type="static">
+  &lt;info>
+    &lt;name>jx_confirm-16-green&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e52><e53><e0><!-- data / n62 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n62" type="static">
+  &lt;info>
+    &lt;name>jx_confirm-48-green&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e53><e54><e0><!-- data / n63 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n63" type="static">
+  &lt;info>
+    &lt;name>jx_checkbox-stop-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e54><e55><e0><!-- data / n64 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n64" type="static">
+  &lt;info>
+    &lt;name>jx_checkbox-stop-48&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e55><e56><e0><!-- data / n65 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n65" type="static">
+  &lt;info>
+    &lt;name>gear-16&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e56><e57><e0><!-- data / n66 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n66" type="static">
+  &lt;info>
+    &lt;name>info&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e57><e58><e0><!-- data / n68 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n68" type="frameset">
+  &lt;info>
+    &lt;name>Settings&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;frameset rows="2,*" cols="100%">
+    &lt;frame name="Frame1" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n18" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="no"/>
+      &lt;/params>
+    &lt;/frame>
+    &lt;frame name="Frame2" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n67" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="no"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="no"/>
+        &lt;param name="forExport" value="no"/>
+      &lt;/params>
+    &lt;/frame>
+  &lt;/frameset>
+&lt;/element>
+</e0></e58><e59><e0><!-- data / n70 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n70" type="workbook">
+  &lt;info>
+    &lt;name>baseSourcePreview&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars>
+    &lt;var name="cube" private="false"/>
+    &lt;var name="db" private="false"/>
+    &lt;var name="lblTitles" private="false"/>
+    &lt;var name="scenario" private="false"/>
+    &lt;var name="selectedMeasure" private="false"/>
+    &lt;var name="selectedVersion" private="false"/>
+    &lt;var name="showValues" private="false"/>
+  &lt;/vars>
+  &lt;referrers/>
+  &lt;resources>
+    &lt;resource group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n12"/>
+  &lt;/resources>
+  &lt;dependents/>
+&lt;/element>
+</e0></e59><e60><e0><!-- data / n71 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n71" type="frameset">
+  &lt;info>
+    &lt;name>PreviewSource&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;frameset rows="8,*" cols="50%">
+    &lt;frame name="Frame1" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n18" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="no"/>
+      &lt;/params>
+    &lt;/frame>
+    &lt;frame name="Frame2" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n70" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="no"/>
+        &lt;param name="hideVertScrollbar" value="no"/>
+        &lt;param name="forExport" value="yes"/>
+      &lt;/params>
+    &lt;/frame>
+  &lt;/frameset>
+&lt;/element>
+</e0></e60><e61><e0><!-- data / n73 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n73" type="workbook">
+  &lt;info>
+    &lt;name>DBwizardSettings&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars>
+    &lt;var name="cube" private="false"/>
+    &lt;var name="db" private="false"/>
+    &lt;var name="scenario" private="false"/>
+  &lt;/vars>
+  &lt;referrers/>
+  &lt;resources>
+    &lt;resource group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n12"/>
+  &lt;/resources>
+  &lt;dependents/>
+&lt;/element>
+</e0></e61><e62><e0><!-- data / n74 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n74" type="static">
+  &lt;info>
+    &lt;name>descr&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;file type="png"/>
+&lt;/element>
+</e0></e62><e63><e0><!-- data / n75 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n75" type="workbook">
+  &lt;info>
+    &lt;name>baseGlobalPreview&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;vars>
+    &lt;var name="countrySpecificFormat" private="false"/>
+    &lt;var name="cube" private="false"/>
+    &lt;var name="db" private="false"/>
+    &lt;var name="lblTitles" private="false"/>
+    &lt;var name="scenario" private="false"/>
+    &lt;var name="selectedMeasure" private="false"/>
+    &lt;var name="selectedVersion" private="false"/>
+    &lt;var name="showValues" private="false"/>
+  &lt;/vars>
+  &lt;referrers/>
+  &lt;resources>
+    &lt;resource group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n12"/>
+  &lt;/resources>
+  &lt;dependents/>
+&lt;/element>
+</e0></e63><e64><e0><!-- data / n76 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n76" type="frameset">
+  &lt;info>
+    &lt;name>PreviewGlobal&lt;/name>
+    &lt;desc/>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;referrers/>
+  &lt;frameset rows="1,*" cols="50%">
+    &lt;frame name="Frame1" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n18" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="yes"/>
+        &lt;param name="hideVertScrollbar" value="yes"/>
+        &lt;param name="forExport" value="yes"/>
+      &lt;/params>
+    &lt;/frame>
+    &lt;frame name="Frame2" group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n75" type="workbook">
+      &lt;params>
+        &lt;param name="hideSheetSelector" value="yes"/>
+        &lt;param name="hideHorScrollbar" value="no"/>
+        &lt;param name="hideVertScrollbar" value="no"/>
+        &lt;param name="forExport" value="yes"/>
+      &lt;/params>
+    &lt;/frame>
+  &lt;/frameset>
+&lt;/element>
+</e0></e64></e1></cube>

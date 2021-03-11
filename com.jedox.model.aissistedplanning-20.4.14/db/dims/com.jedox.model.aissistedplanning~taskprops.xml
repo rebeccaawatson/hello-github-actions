@@ -1,0 +1,1 @@
+<?xml version='1.0' encoding='utf-8'?><!-- DIMENSION "com.jedox.model.aissistedplanning~taskprops" --><dim><e id="0"><n>name</n><t>S</t></e><e id="1"><n>type</n><t>S</t></e><e id="2"><n>desc</n><t>S</t></e><e id="3"><n>trig_type</n><t>S</t></e><e id="4"><n>trig</n><t>S</t></e><e id="5"><n>def</n><t>S</t></e><e id="6"><n>inactive</n><t>S</t></e></dim>

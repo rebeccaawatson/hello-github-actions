@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?><!-- CUBE "#_meta" --><cube><e0><e1337><e0><!-- type / com.jedox.model.aissistedplanning.datapreparation / ~ -->file</e0></e1337></e0><e1><e1337><e0><!-- data / com.jedox.model.aissistedplanning.datapreparation / ~ -->&lt;?xml version="1.0" encoding="UTF-8"?>&lt;element name="com.jedox.model.aissistedplanning.datapreparation" type="file">&#xd;
+  &lt;info>&#xd;
+    &lt;name>Data Preparation&lt;/name>&#xd;
+    &lt;desc>Data Preparation&lt;/desc>&#xd;
+    &lt;comment/>&#xd;
+    &lt;i18n/>&#xd;
+  &lt;/info>&#xd;
+  &lt;backend location="C:\Program Files (x86)\Jedox\Jedox Suite\storage/pkgs" password="" type="local" username=""/>&#xd;
+  &lt;/element></e0></e1337></e1><e3><e1337><e0><!-- seq_node / com.jedox.model.aissistedplanning.datapreparation / ~ -->72</e0></e1337></e3></cube>
