@@ -21,7 +21,7 @@ jobs:
         sudo apt-get install zip
     - name: zip file
       run: |
-        zip _latestNew.jdpx WhatsNew.txt
+        zip _latestNew.jdxp WhatsNew.txt
     
     
      
