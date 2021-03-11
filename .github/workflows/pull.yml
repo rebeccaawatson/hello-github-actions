@@ -19,11 +19,11 @@ jobs:
     - name: zip file
       run: |
         zip _latestNew WhatsNew.txt
-    - name: Commit zipped contents
-    - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}  
     
+    - uses: actions/checkout@v2
+      with:
+          ref: ${{ github.head_ref }}      
+    - name: Commit zipped contents
       run: |
          git config --local user.email "$(git log --format='%ae' HEAD^!)"
          git config --local user.name "$(git log --format='%an' HEAD^!)"
