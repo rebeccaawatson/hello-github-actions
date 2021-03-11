@@ -20,6 +20,10 @@ jobs:
       run: |
         zip _latestNew WhatsNew.txt
     - name: Commit zipped contents
+    - uses: actions/checkout@v2
+        with:
+        ref: ${{ github.event.pull_request.head.sha }}
+    
       run: |
         git config --local user.email "$(git log --format='%ae' HEAD^!)"
         git config --local user.name "$(git log --format='%an' HEAD^!)"
