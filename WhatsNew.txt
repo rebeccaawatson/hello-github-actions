@@ -4,27 +4,3 @@
    <li>Additional documentation on Manual Settings report </li>
    <li>Minor Bug fixes: see full changelog in Report Designer/Files</li>
 </ul>
-
-
-I am adding a line here in order to make a change to the content
-Adding another line
-
-- uses: actions/checkout@v2
-  with:
-    ref: ${{ github.event.pull_request.head.sha }}
-	
-	Try again
-   - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}      
-
- 
-
-    - name: Show ticket id
-            run: |
-              echo ${{  env.TICKET_ID }}
-              git config --local user.email "$(git log --format='%ae' HEAD^!)"
-              git config --local user.name "$(git log --format='%an' HEAD^!)"
-              git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
-              git commit --allow-empty -m "${{  env.TICKET_ID }} : Created Mantis Ticket #${{  env.TICKET_ID }} ."
-              git push origin HEAD:${{ github.head_ref }}
