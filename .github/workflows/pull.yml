@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
+      with:
+          ref: ${{ github.head_ref }}      
     - name: Install Zip
       run: |
         sudo apt-get install zip
@@ -20,13 +23,14 @@ jobs:
       run: |
         zip _latestNew WhatsNew.txt
     
-    - uses: actions/checkout@v2
-      with:
-          ref: ${{ github.head_ref }}      
+    
+     
     - name: Commit zipped contents
       run: |
          git config --local user.email "$(git log --format='%ae' HEAD^!)"
          git config --local user.name "$(git log --format='%an' HEAD^!)"
          git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+         git pull github ${GITHUB_REF} --ff-only
+         git add *
          git commit --allow-empty -m "New zipped Wizard model commited"
          git push github HEAD:${GITHUB_REF}
