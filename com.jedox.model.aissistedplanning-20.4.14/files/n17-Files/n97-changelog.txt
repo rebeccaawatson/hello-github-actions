@@ -1,0 +1,166 @@
+V20.4.12 (Released 05 February 2021)
+
+-New:    
+
+    o Global view (All Data) in Results Preview sample reports
+    o UI design updates
+    o Additional documentation on Manual Settings report
+    o ETL status popup text now copy-able
+
+-Issues:    
+    o Fixed ETL call bug on Step 1 of Wizard
+    o Preview not adapting to new scenarios bug fixed
+    o Fixed Data Preparation Wizard Manual Settings report 
+    o Leading sign fix (language bug)
+    o "Set defaults" bug for Data Preparation Wizard fixed
+    o Language bug fixed
+    o Fixed Accuracy calculation for negative values
+
+
+
+V20.4.10 (Released 07 January 2021)
+
+-Issues:    
+
+    o Fixed 3 year problem in integrator project 
+    o Fixed accuracy display in baseAccuracy report
+    o Fixed special character issue for regex in element names in macro of listPicker [ ->]
+
+
+
+V20.4.8 (Released 11 December 2020)
+-Issues:    
+
+    o Fixed #REF on TS Step One
+	o Integrator error bug (Grv_error output)
+	o Dynamic version dimension added in DP preview report
+
+
+V20.4.6 (Released 03 December 2020)
+
+-New
+	o Editability for Outlier and Interpolation values in Preview Report
+	o Support for Extrapolation
+
+-Issues:    
+
+    o Fixed dimension bug 
+	o Pod compatibility added
+	o Fixed UI bugs (negative values in red, lables to small, check boxes too far apart, etc.)
+
+V20.4.0 (Released 25 November 2020)
+ 
+-New: 
+ 
+    o New Wizard: Data Preparation
+		o Interpolation
+		o Outlier Detection
+    o Support for multiple scenario setups
+    o Support for automation with scheduled tasks with use of "last month" option
+    o Accuracy table for Time Series in Prediction Preview
+    o Advanced Manual Settings page
+    o Advanced Source Preview
+	o Revised Overview page for multiple Scenarios
+    o Added new Outlier Detection methods
+  
+    
+-Issues:    
+
+    o Fixed check zero issue so no empty slices are filled
+    o Fixed "no more than 6 measures" in basePreview
+
+
+
+
+
+
+
+V2.0.6 (Released 7 August 2020)
+
+-All 
+
+
+    o added manuals settings popup in driver based & time series wizard
+    o added Source Preview in Time Series and Driver Based
+    o added TV zero final check
+
+   
+-Time Series Prediction
+	o added new outlier functionality to Wizard reports
+    o Merged Outlier and non-Outlier version of Time Series Prediction
+    
+	
+-Bugs	
+    o Fixed "TV_checkZero" issue (re-added it to the workflow so that no empty slices will be filled
+    o Fixed bug "no more than 6 measuers" in basePreview Report in DriverBased Project
+	o Fixed regex bug (when an element name contains characters like "(" or "[", the regexpression wouldn't work)
+
+   
+
+
+V2.0.4 (Released 17 July 2020)
+
+- All  
+    o changed marketplace icon  
+	o added ETL Job Status column on overview pages
+    o added Birtrates database; this data is courtesy of the Statistisches Bundesamt (Destatis), Genesis-Online
+    o added changelog 
+    o added integrator url as setting
+    o added scenario variable to Setup and overview report (when integrator job is called it is set as variable liek database and cube)	
+	o added target_version creation in setup report
+    o row counts for input and output instead of fixed values (ext_numValues)
+	
+-Time Series Prediction
+    o added Time Series version 1.3.0
+    o added Outlier Version 1.3.1
+	o added new logic to outlier
+	o added failSafe and OutilierType to config cube (set in report macro correctly now)
+	o Added maxSeries switch (daily = 2, monthly = 30) (in FT_variablesStaticTokenInput)
+    o added outlierType switch (daily = TSO, monthly = SLS) (in report macro)
+    o added failSafe switch (daily = 1, monthly = 2) (in report macro)
+    o added weekday copy selection box in Setup report (stored in aiconfig parameter)
+    o added weekday selection switch (copy daily or monthly)
+    o added currentCopyFormat to differentiate between copy monthly / daily
+    
+-Bugs	
+	o namespace bug fixed 
+    o fixed max series bug
+    o fixed elem11 bug
+    o fixed "number" bug
+    o fixed sorting bug
+    o added target_version creation in setup report
+	o Extrapolation error fixed (all month in one year)
+    
+
+	
+	
+V2.0.2 (Released 1 July 2020)
+- Driver-Based Prediction:
+	o changed function call to version 1.0.2, added parameter "fix_random_training"
+
+
+Changelog
+- All
+	o added error message for missing/expired license in Integrator GRV_logWSerr
+- Driver-Based Prediction:
+	o basePreview:
+		* changed macro: added buildFormula version handling as it seems that Version is sometimes not detected.
+- Time Series prediction
+	o Integrator:
+		* added Accuracy element "Extrapolation"
+		* changed createAccuracy: exclude column was "Month", replaced it with ${db_dimensionTime}
+		* changed copy slice to keep days sync (364)
+		* changed ft_staticInput to handle day as input (it's changed in first row -> format_date, so after that, everything works with months again)
+	o WebServices:
+		* Outlier: Fallback is ExtremeValue (for performance reasons)
+		* predictiveForecast: upper/lower bounds calculation
+		* predictiveForecast: test set handling
+		* predictiveForecast: added "Extrapolation" -> periodic spline, accuracy = 1
+	o Reports:
+		*TSSetup:
+			- removed some "NextMonth" calls
+			- new calculation of "This prediction is based on x months" (new variable "inputRange")
+			- days now allowed as selection (interval automatically changes from "Daily" to "monthly" and vice versa)
+			- start/end DAY not taken into account yet (always starts at 01, ends at 30/31)
+			- layout: synced positions of buttons, texts, etc.
+   

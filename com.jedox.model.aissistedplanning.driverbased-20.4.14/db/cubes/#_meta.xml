@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?><!-- CUBE "#_meta" --><cube><e0><e1333><e0><!-- type / com.jedox.model.aissistedplanning.driverbased / ~ -->file</e0></e1333></e0><e1><e1333><e0><!-- data / com.jedox.model.aissistedplanning.driverbased / ~ -->&lt;?xml version="1.0" encoding="UTF-8"?>&lt;element name="com.jedox.model.aissistedplanning.driverbased" type="file">&#xd;
+  &lt;info>&#xd;
+    &lt;name>Driver-Based Prediction&lt;/name>&#xd;
+    &lt;desc>Driver-Based Prediction&lt;/desc>&#xd;
+    &lt;comment/>&#xd;
+    &lt;i18n/>&#xd;
+  &lt;/info>&#xd;
+  &lt;backend location="C:\Program Files (x86)\Jedox\Jedox Suite\storage/pkgs" password="" type="local" username=""/>&#xd;
+  &lt;/element></e0></e1333></e1><e3><e1333><e0><!-- seq_node / com.jedox.model.aissistedplanning.driverbased / ~ -->76</e0></e1333></e3></cube>

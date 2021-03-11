@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?><!-- CUBE "#_meta" --><cube><e0><e1331><e0><!-- type / com.jedox.model.aissistedplanning / ~ -->file</e0></e1331><e1332><e0><!-- type / com.jedox.model.aissistedplanning~reports / ~ -->report</e0></e1332></e0><e1><e1331><e0><!-- data / com.jedox.model.aissistedplanning / ~ -->&lt;?xml version="1.0" encoding="UTF-8"?>&lt;element name="com.jedox.model.aissistedplanning" type="file">&#xd;
+  &lt;info>&#xd;
+    &lt;name>AIssisted™ Planning&lt;/name>&#xd;
+    &lt;desc>AIssisted™ Planning&lt;/desc>&#xd;
+    &lt;comment/>&#xd;
+    &lt;i18n/>&#xd;
+  &lt;/info>&#xd;
+  &lt;backend location="C:\Program Files (x86)\Jedox\Jedox Suite\storage/pkgs" password="" type="local" username=""/>&#xd;
+  &lt;/element></e0></e1331><e1332><e0><!-- data / com.jedox.model.aissistedplanning~reports / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="com.jedox.model.aissistedplanning~reports" type="report">
+  &lt;info>
+    &lt;name>AIssisted™ Planning&lt;/name>
+    &lt;desc>AIssisted™ Planning&lt;/desc>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;/element></e0></e1332></e1><e3><e1331><e0><!-- seq_node / com.jedox.model.aissistedplanning / ~ -->97</e0></e1331><e1332><e0><!-- seq_node / com.jedox.model.aissistedplanning~reports / ~ -->14</e0></e1332></e3></cube>

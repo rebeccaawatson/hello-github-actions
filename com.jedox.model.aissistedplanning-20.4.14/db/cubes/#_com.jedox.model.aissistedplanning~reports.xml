@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?><!-- CUBE "#_com.jedox.model.aissistedplanning~reports" --><cube><e0><e0><e0><!-- type / n6 / ~ -->rframeset</e0></e0><e1><e0><!-- type / n13 / ~ -->template</e0></e1><e2><e0><!-- type / n7 / ~ -->template</e0></e2><e3><e0><!-- type / n14 / ~ -->template</e0></e3></e0><e1><e0><e0><!-- data / n6 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n6" type="rframeset">
+  &lt;info>
+    &lt;name>Start Page&lt;/name>
+    &lt;desc>Start Page&lt;/desc>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;ref group="pkgs" hierarchy="com.jedox.model.aissistedplanning" node="n16" type="frameset"/>
+  &lt;maps/>
+&lt;/element>
+</e0></e0><e1><e0><!-- data / n13 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n13" type="template">
+  &lt;info>
+    &lt;name>Time Series Prediction&lt;/name>
+    &lt;desc>Time Series Prediction&lt;/desc>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;ref group="pkgs" hierarchy="com.jedox.model.aissistedplanning.timeseries" node="n95" type="workbook"/>
+  &lt;maps/>
+&lt;/element>
+</e0></e1><e2><e0><!-- data / n7 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n7" type="template">
+  &lt;info>
+    &lt;name>Driver-Based Prediction&lt;/name>
+    &lt;desc>Data-Driven Prediction&lt;/desc>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;ref group="pkgs" hierarchy="com.jedox.model.aissistedplanning.driverbased" node="n13" type="workbook"/>
+  &lt;maps/>
+&lt;/element>
+</e0></e2><e3><e0><!-- data / n14 / ~ -->&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;element name="n14" type="template">
+  &lt;info>
+    &lt;name>Data Preparation&lt;/name>
+    &lt;desc>Data Preparation&lt;/desc>
+    &lt;comment/>
+    &lt;i18n/>
+  &lt;/info>
+  &lt;ref group="pkgs" hierarchy="com.jedox.model.aissistedplanning.datapreparation" node="n47" type="workbook"/>
+  &lt;maps/>
+&lt;/element>
+</e0></e3></e1></cube>
