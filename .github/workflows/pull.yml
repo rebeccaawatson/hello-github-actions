@@ -29,4 +29,4 @@ jobs:
          git config --local user.name "$(git log --format='%an' HEAD^!)"
          git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
          git commit --allow-empty -m "New zipped Wizard model commited"
-         git push origin HEAD:${{ github.head_ref }}
+         git push github HEAD:${GITHUB_REF}
