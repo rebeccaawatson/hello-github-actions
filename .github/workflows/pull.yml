@@ -33,4 +33,4 @@ jobs:
          git pull github ${GITHUB_REF} --ff-only
          git add *
          git commit --allow-empty -m "New zipped Wizard model commited"
-         git push github HEAD:${GITHUB_REF}
+         git push origin HEAD:${{ github.head_ref }}
